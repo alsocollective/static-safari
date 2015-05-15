@@ -107,6 +107,16 @@ li {
     display: table-cell;
 }
 
+.sup {
+    .signup {
+        background-color: #E80C7A;
+    }
+
+    #contact {
+        color: #E80C7A !important;
+    }
+}
+
 .carousel {
     position: absolute;
     top: 0;
@@ -115,8 +125,8 @@ li {
     z-index: -1;
 
     width: 100%;
-  height: 100%;
-  height: 100vh;
+    height: 100%;
+    height: 100vh;
 }
 
 .slide {

@@ -7,12 +7,12 @@ module.exports = function(grunt) {
 					style: 'compressed'
 				},
 				files: {
-					'application/static/css/main.css': ['application/static/scss/menu.scss'], // 'destination': 'source'
+					'safari/static/css/main.css': ['safari/static/scss/menu.scss'], // 'destination': 'source'
 				}
 			}
 		},
 		watch: {
-			files: ['application/static/scss/*'],
+			files: ['safari/static/scss/*'],
 			tasks: ['sass']
 		}
 	});
